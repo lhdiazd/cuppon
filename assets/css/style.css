@@ -1,0 +1,70 @@
+:root {
+    --color-text: #212529;
+    --color-gray: #707070;
+    --light: #F8F9FA;
+    --white: #fff;
+    --success: #28a745;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.roboto-light {
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+.roboto-medium {
+    font-weight: 500;
+    font-style: normal;
+}
+
+div.card-body{
+    width: 95%;
+    
+}
+
+.card-description{
+    color: var(--color-text);
+    font-size: 1.25rem;
+}
+
+.card-mark{
+    color: var(--color-gray);
+}
+
+small{
+    font-size: 0.8125rem;
+    color: var(--color-gray);
+}
+
+nav{
+    background-color: var(--success);
+}
+
+nav .container-fluid{
+    background-color: var(--success); 
+    
+}
+
+.logo-white {
+    width: 5.3125rem;
+    height: 1.5625rem;
+}
+
+div.card{
+    width: 278px;
+    height: 379px;
+}
+
+.card.card-img-top{
+    width:100%;
+}
+
+
