@@ -6,6 +6,11 @@
     --success: #28a745;
 }
 
+html {
+    font-size: 16px;
+    
+}
+
 
 body {
     font-family: "Roboto", sans-serif;
@@ -25,46 +30,103 @@ body {
     font-style: normal;
 }
 
-div.card-body{
-    width: 95%;
-    
+nav button.navbar-toggler {
+    border-color: #FFFFFF7F;
+    color: var(--light);
 }
 
-.card-description{
+nav button.navbar-toggler span {
+    filter: invert(1);
+}
+
+
+nav,
+nav .container-fluid {
+    background-color: var(--success);
+}
+
+
+
+.card-description {
     color: var(--color-text);
     font-size: 1.25rem;
+    line-height: 1.4rem;
+    height: 4.5625rem;
+    margin-bottom: 0.5rem;
 }
 
-.card-mark{
+
+.card-mark {
     color: var(--color-gray);
 }
 
-small{
+small {
     font-size: 0.8125rem;
     color: var(--color-gray);
 }
 
-nav{
-    background-color: var(--success);
+.fa-map-marker-alt {
+    font-size: x-small;
 }
 
-nav .container-fluid{
-    background-color: var(--success); 
-    
+
+.regular-price {
+    color: var(--color-gray);
+    display: flex;
+    align-items: end;
 }
+
+.discounted-price {
+    color: var(--success);
+    font-size: 1.25rem;
+    display: flex;
+    align-items: end;
+}
+
 
 .logo-white {
     width: 5.3125rem;
     height: 1.5625rem;
 }
 
-div.card{
+div.card {
     width: 278px;
-    height: 379px;
+    min-width: 278px;
+    height: 390px;
 }
 
-.card.card-img-top{
-    width:100%;
+img.card-img-top {
+    height: 180px;
 }
 
+form {
+    background-color: var(--success);
+}
 
+form h4 {
+    font-size: 1.3125rem;
+    color: var(--white);
+}
+
+#nameInput::placeholder,
+input#mailInput::placeholder {
+    color: var(--color-gray);
+    font-weight: 300;
+}
+
+#submitButton {
+    color: var(--color-text);
+    background-color: var(--light);
+    border: none;
+    width: 113px;
+    height: 40px;
+}
+
+#footerLogo {
+    width: 82px;
+    height: 24px;
+}
+
+footer p {
+    color: var(--color-gray);
+}
